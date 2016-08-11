@@ -70,7 +70,7 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
-TARGET_KERNEL_CONFIG := cyanogenmod_oneplus3_defconfig
+TARGET_KERNEL_CONFIG := orion_oneplus3_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # QCOM hardware
@@ -174,7 +174,7 @@ TARGET_USES_NQ_NFC := true
 
 # Optimizations
 STRICT_ALIASING := false
-CLANG_O3 := false
+CLANG_O3 := true
 ENABLE_GCCONLY := false
 GRAPHITE_OPTS := false
 USE_PIPE := true
