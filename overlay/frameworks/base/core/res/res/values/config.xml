@@ -139,7 +139,7 @@
         This needs to match the constants in
         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
     -->
-    <integer name="config_longPressOnHomeBehavior">2</integer>
+    <integer name="config_longPressOnHomeBehavior">3</integer>
 
     <!-- Control the behavior when the user long presses the app switch button.
             0 - Nothing
@@ -396,7 +396,7 @@
     <integer name="config_proximityCheckTimeout">100</integer>
     
     <!-- Bool whether to show notification slider in Universe -->
-      <bool name="config_showNotificationSlider">false</bool>
+      <bool name="config_showNotificationSlider">true</bool>
   
     <!-- Bool whether to show Gestures in Universe -->
     <bool name="config_showMotoDozeGestures">true</bool>
