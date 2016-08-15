@@ -73,6 +73,10 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
 TARGET_KERNEL_CONFIG := orion_oneplus3_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
@@ -205,6 +209,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/qcom/common
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
