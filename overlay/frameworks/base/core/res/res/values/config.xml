@@ -415,4 +415,7 @@
     <!-- Bool whether to show Gestures in Universe -->
     <bool name="config_showOnePlusDozeGestures">true</bool>
     
+	<!-- Bool whether to show OnePlus ScreenOff Gestures in Universe -->
+    <bool name="config_showScreenoffGesture">true</bool>    
+    
 </resources>
