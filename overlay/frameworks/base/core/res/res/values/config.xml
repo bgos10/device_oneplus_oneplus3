@@ -425,5 +425,7 @@
     
 	<!-- Bool whether to show OnePlus ScreenOff Gestures in Universe -->
     <bool name="config_showScreenoffGesture">true</bool>    
-    
+	
+	<!-- Bool whether to show Hardware Keys Menu in Universe -->
+    <bool name="config_showHwKeys">true</bool>    
 </resources>
